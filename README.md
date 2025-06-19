@@ -17,7 +17,7 @@
 make
 make clean
 .\clean_outputs.bat
-.pp.exe
+./app
 ```
 
 > Убедитесь, что все входные и выходные папки (`inputs`, `outputs_...`) существуют.
