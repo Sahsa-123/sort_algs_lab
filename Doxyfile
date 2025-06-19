@@ -1,0 +1,19 @@
+PROJECT_NAME = "Практическое задание по теме «Алгоритмы сортировок»"
+
+INPUT = ./class.h ./class.cpp ./algs.h ./csvReaderWriter.h ./csvReaderWriter.cpp ./generateData.h ./generateData.cpp ./main.cpp
+
+OUTPUT_LANGUAGE = Russian
+INPUT_ENCODING  = UTF-8
+
+OUTPUT_DIRECTORY = docs
+GENERATE_LATEX   = YES 
+GENERATE_LATEX        = YES
+LATEX_BATCHMODE       = NO
+COMPACT_LATEX         = NO
+PDF_HYPERLINKS        = YES
+USE_PDFLATEX          = YES
+LATEX_SOURCE_CODE     = YES
+
+SOURCE_BROWSER       = YES
+INLINE_SOURCES       = YES
+STRIP_CODE_COMMENTS  = YES
