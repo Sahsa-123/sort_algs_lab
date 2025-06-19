@@ -14,7 +14,7 @@
  * @ingroup Sorting
  * @brief Выполняет пузырьковую сортировку in-place.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Вектор, который будет отсортирован.
  */
 template<typename T>
@@ -30,7 +30,7 @@ void bubbleSort(std::vector<T>& a) {
  * @ingroup Sorting
  * @brief Возвращает отсортированную копию вектора с использованием пузырьковой сортировки.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Исходный вектор.
  * @return Отсортированный вектор.
  */
@@ -46,7 +46,7 @@ std::vector<T> bubbleSortImmutable(const std::vector<T>& a) {
  * @ingroup Sorting
  * @brief Выполняет шейкерную сортировку in-place.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Вектор, который будет отсортирован.
  */
 template<typename T>
@@ -81,7 +81,7 @@ void shakerSort(std::vector<T>& a) {
  * @ingroup Sorting
  * @brief Возвращает отсортированную копию вектора с использованием шейкерной сортировки.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Исходный вектор.
  * @return Отсортированный вектор.
  */
@@ -94,9 +94,9 @@ std::vector<T> shakerSortImmutable(const std::vector<T>& a) {
 
 /**
  * @ingroup Sorting
- * @brief Вспомогательная функция для поддержания свойства кучи.
+ * @brief Вспомогательная функция для восстановления свойства кучи.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Вектор элементов.
  * @param subtreeRootIndex Индекс корня поддерева.
  * @param treeSize Размер поддерева.
@@ -128,7 +128,7 @@ void downHeap(std::vector<T>& a, size_t subtreeRootIndex, size_t treeSize) {
  * @ingroup Sorting
  * @brief Выполняет пирамидальную сортировку in-place.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Вектор, который будет отсортирован.
  */
 template<typename T>
@@ -150,7 +150,7 @@ void heapSort(std::vector<T>& a) {
  * @ingroup Sorting
  * @brief Возвращает отсортированную копию вектора с использованием пирамидальной сортировки.
  * 
- * @tparam T Тип элементов.
+ * @tparam T Тип элементов вектора a.
  * @param a Исходный вектор.
  * @return Отсортированный вектор.
  */
